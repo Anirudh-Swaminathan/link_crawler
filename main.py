@@ -4,6 +4,7 @@ from spider import Spider
 from domain import *
 from general import *
 
+# Set the defaults
 PROJECT_NAME = 'thenewboston'
 HOMEPAGE = 'https://thenewboston.com/'
 

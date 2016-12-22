@@ -6,7 +6,6 @@ def create_project_dir(directory):
         print "Creating directory "+directory
         os.makedirs(directory)
 
-#create_project_dir('thenewboston')
 #queue and crawled files only in the new directory
 #Create queue and crawled files
 def create_data_files(project_name,base_url):
@@ -20,8 +19,6 @@ def create_data_files(project_name,base_url):
 def write_file(path,data):
     with open(path,'w') as f:
         f.write(data)
-    
-#create_data_files('thenewboston','https://thenewboston.com/')
 
 #Add data to existing file
 def append_to_file(path,data):

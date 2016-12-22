@@ -1,0 +1,5 @@
+# ignore all .pyc files
+*.pyc
+
+# ignore all subdirectories that are created during the running of the code
+*/
